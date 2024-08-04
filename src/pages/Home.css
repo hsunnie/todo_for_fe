@@ -1,0 +1,89 @@
+.todo {
+    margin-top: 84px;
+    margin-left: 360px;
+    display: flex;
+    gap: 16px;
+}
+
+.inputcontainer {
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: 1016px 56px;
+    background-position: center;
+    display: flex;
+    align-items: center;  /* 수직 가운데 정렬 */
+}
+
+.inputtodo {
+    width: 1016px;
+    height: 56px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 20px;  /* 좌우 여백을 추가하여 내용이 안쪽으로 이동 */
+    box-sizing: border-box;  /* padding을 포함하여 너비를 계산 */
+    font-size: 16px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+input::placeholder {background-color: none;}
+
+.addtodo {
+    width: 168px;
+    height: 56px;
+}
+
+.todoordoneicon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 101px;
+    height: 36px;
+    margin-top: 40px;
+    margin-left: 360px;
+    gap: 511px;
+}
+
+.todolist {
+    margin-left: 360px;
+    margin-top: 16px;
+    display: flex;
+    gap: 24px;
+}
+
+.notyet, .done {
+    display: flex;
+    gap: 16px;
+    border-radius: 27px;
+    border: 2px solid #1E293B;
+    width: 588px;
+    height: 50px;
+    text-align: start;
+    padding: 8px 20px;  /* 여백을 추가하여 내용이 안쪽으로 이동 */
+    box-sizing: border-box;  /* padding을 포함하여 너비를 계산 */
+    align-items: center;
+}
+
+.notyet {
+    background-color: #ffffff;
+}
+
+.done {
+    background-color: #ede9fe;
+}
+
+.notyetchicon, .donechicon {
+    width: 32px;
+    height: 32px;
+}
+
+.notyetmemo, .donememo {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 18.16px;
+}
+
+.donememo {
+    text-decoration: line-through;
+}

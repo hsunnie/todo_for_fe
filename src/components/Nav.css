@@ -1,0 +1,11 @@
+.logo {
+    margin-top: 10px;
+}
+
+.logoimg {
+    display: block;
+    /* margin-top: 10px; */
+    margin-left: 360px;
+    width: 151px;
+    height: 40px;
+}
