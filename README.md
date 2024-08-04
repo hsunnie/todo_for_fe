@@ -1,5 +1,5 @@
 ## 진행 중인 프로그램의 모습은 아래와 같습니다.
-![ing](C:\Users\gustj\Desktop\fe\front-end\ing.png)
+<img src='./ing.png' >
 
 ### 구현하지 못한 기능
 1. 추가하기 버튼 활성화
